@@ -1,3 +1,5 @@
+package cn.com.RBTree;
+
 import java.util.Scanner;
 
 public class RB_TREE {
