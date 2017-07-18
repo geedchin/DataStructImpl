@@ -161,7 +161,7 @@ public class StackOnly<E> implements InterfaceStackOnly<E> {
     
     /**
      * @return
-     * @Description check whether need new a array or not when inserting a element;elementCount is update
+     * @Description check whether need new a array or not when inserting a element;elementCount was update yet
      */
     private boolean checkNeedNewArrayIfAdd() {
         if (elementCount == 1) return true;
